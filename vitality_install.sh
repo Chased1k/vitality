@@ -8,7 +8,7 @@ COIN_CLI='vitality-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/vitalitycoin/Vitality/releases/download/v1.0/linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='VIT'
+COIN_NAME='vitality'
 COIN_PORT=15415
 
 
