@@ -1,14 +1,14 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='vitality.conf'
-CONFIGFOLDER='/root/.vitality'
-COIN_DAEMON='vitalityd'
-COIN_CLI='vitality-cli'
+CONFIG_FILE='Vitality.conf'
+CONFIGFOLDER='/root/.Vitality'
+COIN_DAEMON='Vitalityd'
+COIN_CLI='Vitality-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/vitalitycoin/Vitality/releases/download/v1.0/linux.zip'
+COIN_TGZ='https://github.com/Vitalitycoin/Vitality/releases/download/v1.0/linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='vitality'
+COIN_NAME='Vitality'
 COIN_PORT=15415
 
 
