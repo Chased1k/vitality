@@ -86,9 +86,9 @@ rpcuser=$RPCUSER
 rpcpassword=$RPCPASSWORD
 #rpcport=$RPC_PORT
 rpcallowip=127.0.0.1
-#listen=1
+listen=1
 server=1
-daemon=1
+staking=1
 port=$COIN_PORT
 EOF
 
@@ -119,11 +119,13 @@ clear
 function update_config() {
   sed -i 's/daemon=1/daemon=0/' $CONFIGFOLDER/$CONFIG_FILE
   cat << EOF >> $CONFIGFOLDER/$CONFIG_FILE
-logintimestamps=1
-maxconnections=256
+#logintimestamps=1
+#maxconnections=256
 #bind=$NODEIP
+port=$COIN_PORT
 masternode=1
 externalip=$NODEIP:$COIN_PORT
+masternodeaddr=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
 EOF
 }
