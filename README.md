@@ -58,7 +58,7 @@ systemctl is-enabled vitalityd #To check whetether vitality service is enabled o
 
 Any donation is highly appreciated.  
 
-**VIT**: VDwKwAWwVdYuYLRo6y92xyVckJ3GsF7aZQ 
+**VIT**: VDwKwAWwVdYuYLRo6y92xyVckJ3GsF7aZQ  
 **BCH**: qzgsarlyahpdemyapkm0mlurwwnmjsjznvmxm85e4y  
 **ETH**: 0xA78901Aed64d92360917222d7dC2697a4AD0D608  
 **LTC**: LYx9AEcYLh2xyz1G4ER4tQCw24FyXfbdC6  
